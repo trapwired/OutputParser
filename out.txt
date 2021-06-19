@@ -1,0 +1,1518 @@
+S:\Projects\MachinePerception\amro_bou\Kldivergent\venv\Scripts\python.exe S:/Projects/MachinePerception/amro_bou/Kldivergent/main.py
+S:\Projects\MachinePerception\amro_bou\Kldivergent\venv\lib\site-packages\manopth\manolayer.py:72: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ..\torch\csrc\utils\tensor_numpy.cpp:143.)
+  torch.Tensor(smpl_data['betas'].r).unsqueeze(0))
+2021-06-19 00:11:57.745592: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library cudart64_110.dll
+S:\Projects\MachinePerception\amro_bou\Kldivergent\src\trainer.py:23: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  return easydict.EasyDict(yaml.load(stream))
+Loading Model: model_0014
+Experiment dir: S:\Projects\MachinePerception\Experiments\exp_boukhayma_421560
+
+Epoch: 0001/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.9144	loss: 0.914
+Iter: 0100/0356	kp3d: 0.8888	loss: 0.888
+Iter: 0200/0356	kp3d: 0.8236	loss: 0.823
+Iter: 0300/0356	kp3d: 0.8368	loss: 0.836
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.2053	perf_metric: 15.7156	loss: 0.000
+
+Epoch: 0002/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.8852	loss: 0.885
+Iter: 0100/0356	kp3d: 0.7571	loss: 0.757
+Iter: 0200/0356	kp3d: 0.7444	loss: 0.744
+Iter: 0300/0356	kp3d: 0.7594	loss: 0.759
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1886	perf_metric: 15.5909	loss: 0.000
+
+Epoch: 0003/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.8079	loss: 0.807
+Iter: 0100/0356	kp3d: 0.7486	loss: 0.748
+Iter: 0200/0356	kp3d: 0.6880	loss: 0.688
+Iter: 0300/0356	kp3d: 0.7139	loss: 0.713
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1605	perf_metric: 15.5300	loss: 0.000
+
+Epoch: 0004/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.8152	loss: 0.815
+Iter: 0100/0356	kp3d: 0.7177	loss: 0.717
+Iter: 0200/0356	kp3d: 0.6714	loss: 0.671
+Iter: 0300/0356	kp3d: 0.7002	loss: 0.700
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.2662	perf_metric: 15.3567	loss: 0.000
+
+Epoch: 0005/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.7702	loss: 0.770
+Iter: 0100/0356	kp3d: 0.6706	loss: 0.670
+Iter: 0200/0356	kp3d: 0.6963	loss: 0.696
+Iter: 0300/0356	kp3d: 0.7382	loss: 0.738
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1561	perf_metric: 15.8776	loss: 0.000
+
+Epoch: 0006/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.7619	loss: 0.761
+Iter: 0100/0356	kp3d: 0.6904	loss: 0.690
+Iter: 0200/0356	kp3d: 0.7188	loss: 0.718
+Iter: 0300/0356	kp3d: 0.7252	loss: 0.725
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1083	perf_metric: 15.4345	loss: 0.000
+
+Epoch: 0007/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.7453	loss: 0.745
+Iter: 0100/0356	kp3d: 0.6298	loss: 0.629
+Iter: 0200/0356	kp3d: 0.6499	loss: 0.649
+Iter: 0300/0356	kp3d: 0.6695	loss: 0.669
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0783	perf_metric: 15.9205	loss: 0.000
+
+Epoch: 0008/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.7079	loss: 0.707
+Iter: 0100/0356	kp3d: 0.6456	loss: 0.645
+Iter: 0200/0356	kp3d: 0.6497	loss: 0.649
+Iter: 0300/0356	kp3d: 0.7060	loss: 0.706
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1420	perf_metric: 16.5336	loss: 0.000
+
+Epoch: 0009/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6785	loss: 0.678
+Iter: 0100/0356	kp3d: 0.6306	loss: 0.630
+Iter: 0200/0356	kp3d: 0.6433	loss: 0.643
+Iter: 0300/0356	kp3d: 0.6521	loss: 0.652
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0918	perf_metric: 15.5849	loss: 0.000
+
+Epoch: 0010/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6675	loss: 0.667
+Iter: 0100/0356	kp3d: 0.6503	loss: 0.650
+Iter: 0200/0356	kp3d: 0.6370	loss: 0.637
+Iter: 0300/0356	kp3d: 0.6518	loss: 0.651
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1629	perf_metric: 15.1499	loss: 0.000
+
+Epoch: 0011/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6808	loss: 0.680
+Iter: 0100/0356	kp3d: 0.6280	loss: 0.628
+Iter: 0200/0356	kp3d: 0.6049	loss: 0.604
+Iter: 0300/0356	kp3d: 0.6342	loss: 0.634
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1592	perf_metric: 15.3380	loss: 0.000
+
+Epoch: 0012/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.7240	loss: 0.724
+Iter: 0100/0356	kp3d: 0.6239	loss: 0.623
+Iter: 0200/0356	kp3d: 0.5731	loss: 0.573
+Iter: 0300/0356	kp3d: 0.5673	loss: 0.567
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1360	perf_metric: 16.2423	loss: 0.000
+
+Epoch: 0013/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.7103	loss: 0.710
+Iter: 0100/0356	kp3d: 0.6273	loss: 0.627
+Iter: 0200/0356	kp3d: 0.6323	loss: 0.632
+Iter: 0300/0356	kp3d: 0.6336	loss: 0.633
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1402	perf_metric: 15.5470	loss: 0.000
+
+Epoch: 0014/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.7230	loss: 0.723
+Iter: 0100/0356	kp3d: 0.6141	loss: 0.614
+Iter: 0200/0356	kp3d: 0.5637	loss: 0.563
+Iter: 0300/0356	kp3d: 0.6145	loss: 0.614
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1562	perf_metric: 16.4669	loss: 0.000
+
+Epoch: 0015/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.7053	loss: 0.705
+Iter: 0100/0356	kp3d: 0.6056	loss: 0.605
+Iter: 0200/0356	kp3d: 0.5959	loss: 0.595
+Iter: 0300/0356	kp3d: 0.6087	loss: 0.608
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1190	perf_metric: 16.0011	loss: 0.000
+
+Epoch: 0016/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6645	loss: 0.664
+Iter: 0100/0356	kp3d: 0.6093	loss: 0.609
+Iter: 0200/0356	kp3d: 0.5923	loss: 0.592
+Iter: 0300/0356	kp3d: 0.5961	loss: 0.596
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1331	perf_metric: 15.4600	loss: 0.000
+
+Epoch: 0017/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6914	loss: 0.691
+Iter: 0100/0356	kp3d: 0.6368	loss: 0.636
+Iter: 0200/0356	kp3d: 0.5970	loss: 0.597
+Iter: 0300/0356	kp3d: 0.5956	loss: 0.595
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1290	perf_metric: 15.5143	loss: 0.000
+
+Epoch: 0018/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6710	loss: 0.671
+Iter: 0100/0356	kp3d: 0.5725	loss: 0.572
+Iter: 0200/0356	kp3d: 0.5990	loss: 0.599
+Iter: 0300/0356	kp3d: 0.5963	loss: 0.596
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1229	perf_metric: 15.7818	loss: 0.000
+
+Epoch: 0019/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6692	loss: 0.669
+Iter: 0100/0356	kp3d: 0.6094	loss: 0.609
+Iter: 0200/0356	kp3d: 0.5971	loss: 0.597
+Iter: 0300/0356	kp3d: 0.5767	loss: 0.576
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1162	perf_metric: 15.5593	loss: 0.000
+
+Epoch: 0020/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6468	loss: 0.646
+Iter: 0100/0356	kp3d: 0.6094	loss: 0.609
+Iter: 0200/0356	kp3d: 0.5698	loss: 0.569
+Iter: 0300/0356	kp3d: 0.5792	loss: 0.579
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1656	perf_metric: 16.0913	loss: 0.000
+
+Epoch: 0021/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6698	loss: 0.669
+Iter: 0100/0356	kp3d: 0.5748	loss: 0.574
+Iter: 0200/0356	kp3d: 0.5696	loss: 0.569
+Iter: 0300/0356	kp3d: 0.5489	loss: 0.548
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1340	perf_metric: 15.5247	loss: 0.000
+
+Epoch: 0022/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6618	loss: 0.661
+Iter: 0100/0356	kp3d: 0.6077	loss: 0.607
+Iter: 0200/0356	kp3d: 0.5480	loss: 0.548
+Iter: 0300/0356	kp3d: 0.5918	loss: 0.591
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0862	perf_metric: 15.3646	loss: 0.000
+
+Epoch: 0023/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6251	loss: 0.625
+Iter: 0100/0356	kp3d: 0.5616	loss: 0.561
+Iter: 0200/0356	kp3d: 0.5718	loss: 0.571
+Iter: 0300/0356	kp3d: 0.5876	loss: 0.587
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.2014	perf_metric: 15.8746	loss: 0.000
+
+Epoch: 0024/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6327	loss: 0.632
+Iter: 0100/0356	kp3d: 0.5783	loss: 0.578
+Iter: 0200/0356	kp3d: 0.5757	loss: 0.575
+Iter: 0300/0356	kp3d: 0.5933	loss: 0.593
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1286	perf_metric: 15.6059	loss: 0.000
+
+Epoch: 0025/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6098	loss: 0.609
+Iter: 0100/0356	kp3d: 0.5809	loss: 0.580
+Iter: 0200/0356	kp3d: 0.5647	loss: 0.564
+Iter: 0300/0356	kp3d: 0.5381	loss: 0.538
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0607	perf_metric: 15.4827	loss: 0.000
+
+Epoch: 0026/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6047	loss: 0.604
+Iter: 0100/0356	kp3d: 0.5809	loss: 0.580
+Iter: 0200/0356	kp3d: 0.5504	loss: 0.550
+Iter: 0300/0356	kp3d: 0.5424	loss: 0.542
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0569	perf_metric: 15.9727	loss: 0.000
+
+Epoch: 0027/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6551	loss: 0.655
+Iter: 0100/0356	kp3d: 0.6168	loss: 0.616
+Iter: 0200/0356	kp3d: 0.5098	loss: 0.509
+Iter: 0300/0356	kp3d: 0.5828	loss: 0.582
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1441	perf_metric: 15.4134	loss: 0.000
+
+Epoch: 0028/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6077	loss: 0.607
+Iter: 0100/0356	kp3d: 0.5773	loss: 0.577
+Iter: 0200/0356	kp3d: 0.5244	loss: 0.524
+Iter: 0300/0356	kp3d: 0.5569	loss: 0.556
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0515	perf_metric: 15.1108	loss: 0.000
+
+Epoch: 0029/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6351	loss: 0.635
+Iter: 0100/0356	kp3d: 0.5711	loss: 0.571
+Iter: 0200/0356	kp3d: 0.5252	loss: 0.525
+Iter: 0300/0356	kp3d: 0.5485	loss: 0.548
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1807	perf_metric: 15.4909	loss: 0.000
+
+Epoch: 0030/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5948	loss: 0.594
+Iter: 0100/0356	kp3d: 0.5923	loss: 0.592
+Iter: 0200/0356	kp3d: 0.5362	loss: 0.536
+Iter: 0300/0356	kp3d: 0.5270	loss: 0.527
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1026	perf_metric: 15.6219	loss: 0.000
+
+Epoch: 0031/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6241	loss: 0.624
+Iter: 0100/0356	kp3d: 0.5515	loss: 0.551
+Iter: 0200/0356	kp3d: 0.5557	loss: 0.555
+Iter: 0300/0356	kp3d: 0.5455	loss: 0.545
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1512	perf_metric: 15.5522	loss: 0.000
+
+Epoch: 0032/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6196	loss: 0.619
+Iter: 0100/0356	kp3d: 0.5435	loss: 0.543
+Iter: 0200/0356	kp3d: 0.5481	loss: 0.548
+Iter: 0300/0356	kp3d: 0.5238	loss: 0.523
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0879	perf_metric: 14.9262	loss: 0.000
+
+Epoch: 0033/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6028	loss: 0.602
+Iter: 0100/0356	kp3d: 0.5644	loss: 0.564
+Iter: 0200/0356	kp3d: 0.5480	loss: 0.548
+Iter: 0300/0356	kp3d: 0.5199	loss: 0.519
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1016	perf_metric: 14.6741	loss: 0.000
+
+Epoch: 0034/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6094	loss: 0.609
+Iter: 0100/0356	kp3d: 0.5517	loss: 0.551
+Iter: 0200/0356	kp3d: 0.5192	loss: 0.519
+Iter: 0300/0356	kp3d: 0.5098	loss: 0.509
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0765	perf_metric: 15.0232	loss: 0.000
+
+Epoch: 0035/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5713	loss: 0.571
+Iter: 0100/0356	kp3d: 0.5355	loss: 0.535
+Iter: 0200/0356	kp3d: 0.4936	loss: 0.493
+Iter: 0300/0356	kp3d: 0.5158	loss: 0.515
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1260	perf_metric: 15.4005	loss: 0.000
+
+Epoch: 0036/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6046	loss: 0.604
+Iter: 0100/0356	kp3d: 0.5334	loss: 0.533
+Iter: 0200/0356	kp3d: 0.5211	loss: 0.521
+Iter: 0300/0356	kp3d: 0.5268	loss: 0.526
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1659	perf_metric: 14.8877	loss: 0.000
+
+Epoch: 0037/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5986	loss: 0.598
+Iter: 0100/0356	kp3d: 0.5257	loss: 0.525
+Iter: 0200/0356	kp3d: 0.5163	loss: 0.516
+Iter: 0300/0356	kp3d: 0.5266	loss: 0.526
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0721	perf_metric: 15.0989	loss: 0.000
+
+Epoch: 0038/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6064	loss: 0.606
+Iter: 0100/0356	kp3d: 0.5365	loss: 0.536
+Iter: 0200/0356	kp3d: 0.5170	loss: 0.517
+Iter: 0300/0356	kp3d: 0.5045	loss: 0.504
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1378	perf_metric: 14.5471	loss: 0.000
+
+Epoch: 0039/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5707	loss: 0.570
+Iter: 0100/0356	kp3d: 0.5444	loss: 0.544
+Iter: 0200/0356	kp3d: 0.5159	loss: 0.515
+Iter: 0300/0356	kp3d: 0.5389	loss: 0.538
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0333	perf_metric: 14.7206	loss: 0.000
+
+Epoch: 0040/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5653	loss: 0.565
+Iter: 0100/0356	kp3d: 0.5207	loss: 0.520
+Iter: 0200/0356	kp3d: 0.5142	loss: 0.514
+Iter: 0300/0356	kp3d: 0.5256	loss: 0.525
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0768	perf_metric: 14.9679	loss: 0.000
+
+Epoch: 0041/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5790	loss: 0.579
+Iter: 0100/0356	kp3d: 0.5537	loss: 0.553
+Iter: 0200/0356	kp3d: 0.5088	loss: 0.508
+Iter: 0300/0356	kp3d: 0.4925	loss: 0.492
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1006	perf_metric: 14.6051	loss: 0.000
+
+Epoch: 0042/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5976	loss: 0.597
+Iter: 0100/0356	kp3d: 0.5513	loss: 0.551
+Iter: 0200/0356	kp3d: 0.5248	loss: 0.524
+Iter: 0300/0356	kp3d: 0.5231	loss: 0.523
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0796	perf_metric: 14.2977	loss: 0.000
+
+Epoch: 0043/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5551	loss: 0.555
+Iter: 0100/0356	kp3d: 0.5346	loss: 0.534
+Iter: 0200/0356	kp3d: 0.5007	loss: 0.500
+Iter: 0300/0356	kp3d: 0.4856	loss: 0.485
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1139	perf_metric: 15.2806	loss: 0.000
+
+Epoch: 0044/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5372	loss: 0.537
+Iter: 0100/0356	kp3d: 0.5009	loss: 0.500
+Iter: 0200/0356	kp3d: 0.4697	loss: 0.469
+Iter: 0300/0356	kp3d: 0.5052	loss: 0.505
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0709	perf_metric: 14.9433	loss: 0.000
+
+Epoch: 0045/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5563	loss: 0.556
+Iter: 0100/0356	kp3d: 0.5056	loss: 0.505
+Iter: 0200/0356	kp3d: 0.4955	loss: 0.495
+Iter: 0300/0356	kp3d: 0.5297	loss: 0.529
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1751	perf_metric: 15.6113	loss: 0.000
+
+Epoch: 0046/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6093	loss: 0.609
+Iter: 0100/0356	kp3d: 0.5403	loss: 0.540
+Iter: 0200/0356	kp3d: 0.5051	loss: 0.505
+Iter: 0300/0356	kp3d: 0.5231	loss: 0.523
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1044	perf_metric: 15.0982	loss: 0.000
+
+Epoch: 0047/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5575	loss: 0.557
+Iter: 0100/0356	kp3d: 0.5032	loss: 0.503
+Iter: 0200/0356	kp3d: 0.5027	loss: 0.502
+Iter: 0300/0356	kp3d: 0.4981	loss: 0.498
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0671	perf_metric: 14.4494	loss: 0.000
+
+Epoch: 0048/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5751	loss: 0.575
+Iter: 0100/0356	kp3d: 0.5210	loss: 0.521
+Iter: 0200/0356	kp3d: 0.5136	loss: 0.513
+Iter: 0300/0356	kp3d: 0.4899	loss: 0.489
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0900	perf_metric: 14.8796	loss: 0.000
+
+Epoch: 0049/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5658	loss: 0.565
+Iter: 0100/0356	kp3d: 0.5116	loss: 0.511
+Iter: 0200/0356	kp3d: 0.4747	loss: 0.474
+Iter: 0300/0356	kp3d: 0.4746	loss: 0.474
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0979	perf_metric: 14.5073	loss: 0.000
+
+Epoch: 0050/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5569	loss: 0.556
+Iter: 0100/0356	kp3d: 0.4963	loss: 0.496
+Iter: 0200/0356	kp3d: 0.4866	loss: 0.486
+Iter: 0300/0356	kp3d: 0.4805	loss: 0.480
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1211	perf_metric: 15.6603	loss: 0.000
+
+Epoch: 0051/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5551	loss: 0.555
+Iter: 0100/0356	kp3d: 0.4902	loss: 0.490
+Iter: 0200/0356	kp3d: 0.4918	loss: 0.491
+Iter: 0300/0356	kp3d: 0.4912	loss: 0.491
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1104	perf_metric: 14.6945	loss: 0.000
+
+Epoch: 0052/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5670	loss: 0.567
+Iter: 0100/0356	kp3d: 0.5209	loss: 0.520
+Iter: 0200/0356	kp3d: 0.4921	loss: 0.492
+Iter: 0300/0356	kp3d: 0.4980	loss: 0.498
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0285	perf_metric: 15.0149	loss: 0.000
+
+Epoch: 0053/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5472	loss: 0.547
+Iter: 0100/0356	kp3d: 0.5239	loss: 0.523
+Iter: 0200/0356	kp3d: 0.5143	loss: 0.514
+Iter: 0300/0356	kp3d: 0.5005	loss: 0.500
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1203	perf_metric: 15.3714	loss: 0.000
+
+Epoch: 0054/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5769	loss: 0.576
+Iter: 0100/0356	kp3d: 0.5001	loss: 0.500
+Iter: 0200/0356	kp3d: 0.4991	loss: 0.499
+Iter: 0300/0356	kp3d: 0.5015	loss: 0.501
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0658	perf_metric: 14.7328	loss: 0.000
+
+Epoch: 0055/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5511	loss: 0.551
+Iter: 0100/0356	kp3d: 0.4875	loss: 0.487
+Iter: 0200/0356	kp3d: 0.4688	loss: 0.468
+Iter: 0300/0356	kp3d: 0.4707	loss: 0.470
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0664	perf_metric: 14.8873	loss: 0.000
+
+Epoch: 0056/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5412	loss: 0.541
+Iter: 0100/0356	kp3d: 0.4915	loss: 0.491
+Iter: 0200/0356	kp3d: 0.4613	loss: 0.461
+Iter: 0300/0356	kp3d: 0.4755	loss: 0.475
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1021	perf_metric: 14.5758	loss: 0.000
+
+Epoch: 0057/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5289	loss: 0.528
+Iter: 0100/0356	kp3d: 0.5002	loss: 0.500
+Iter: 0200/0356	kp3d: 0.4717	loss: 0.471
+Iter: 0300/0356	kp3d: 0.4933	loss: 0.493
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1053	perf_metric: 15.3397	loss: 0.000
+
+Epoch: 0058/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5316	loss: 0.531
+Iter: 0100/0356	kp3d: 0.5240	loss: 0.524
+Iter: 0200/0356	kp3d: 0.4721	loss: 0.472
+Iter: 0300/0356	kp3d: 0.5181	loss: 0.518
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0862	perf_metric: 14.6869	loss: 0.000
+
+Epoch: 0059/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5752	loss: 0.575
+Iter: 0100/0356	kp3d: 0.5211	loss: 0.521
+Iter: 0200/0356	kp3d: 0.4745	loss: 0.474
+Iter: 0300/0356	kp3d: 0.4777	loss: 0.477
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0200	perf_metric: 14.0611	loss: 0.000
+
+Epoch: 0060/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5405	loss: 0.540
+Iter: 0100/0356	kp3d: 0.5016	loss: 0.501
+Iter: 0200/0356	kp3d: 0.4621	loss: 0.462
+Iter: 0300/0356	kp3d: 0.4812	loss: 0.481
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1533	perf_metric: 14.9845	loss: 0.000
+
+Epoch: 0061/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5614	loss: 0.561
+Iter: 0100/0356	kp3d: 0.5173	loss: 0.517
+Iter: 0200/0356	kp3d: 0.4985	loss: 0.498
+Iter: 0300/0356	kp3d: 0.4762	loss: 0.476
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0928	perf_metric: 14.2048	loss: 0.000
+
+Epoch: 0062/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5378	loss: 0.537
+Iter: 0100/0356	kp3d: 0.5000	loss: 0.500
+Iter: 0200/0356	kp3d: 0.4683	loss: 0.468
+Iter: 0300/0356	kp3d: 0.4543	loss: 0.454
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0607	perf_metric: 14.6092	loss: 0.000
+
+Epoch: 0063/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5274	loss: 0.527
+Iter: 0100/0356	kp3d: 0.4851	loss: 0.485
+Iter: 0200/0356	kp3d: 0.4464	loss: 0.446
+Iter: 0300/0356	kp3d: 0.4665	loss: 0.466
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0978	perf_metric: 15.0492	loss: 0.000
+
+Epoch: 0064/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5074	loss: 0.507
+Iter: 0100/0356	kp3d: 0.4829	loss: 0.482
+Iter: 0200/0356	kp3d: 0.4980	loss: 0.498
+Iter: 0300/0356	kp3d: 0.5143	loss: 0.514
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0921	perf_metric: 14.7090	loss: 0.000
+
+Epoch: 0065/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5590	loss: 0.559
+Iter: 0100/0356	kp3d: 0.5307	loss: 0.530
+Iter: 0200/0356	kp3d: 0.4907	loss: 0.490
+Iter: 0300/0356	kp3d: 0.4742	loss: 0.474
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0265	perf_metric: 14.1994	loss: 0.000
+
+Epoch: 0066/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5372	loss: 0.537
+Iter: 0100/0356	kp3d: 0.4823	loss: 0.482
+Iter: 0200/0356	kp3d: 0.4412	loss: 0.441
+Iter: 0300/0356	kp3d: 0.4619	loss: 0.461
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0959	perf_metric: 14.4439	loss: 0.000
+
+Epoch: 0067/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5050	loss: 0.505
+Iter: 0100/0356	kp3d: 0.4608	loss: 0.460
+Iter: 0200/0356	kp3d: 0.4318	loss: 0.431
+Iter: 0300/0356	kp3d: 0.4217	loss: 0.421
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1038	perf_metric: 14.3272	loss: 0.000
+
+Epoch: 0068/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5039	loss: 0.503
+Iter: 0100/0356	kp3d: 0.4577	loss: 0.457
+Iter: 0200/0356	kp3d: 0.4400	loss: 0.440
+Iter: 0300/0356	kp3d: 0.4434	loss: 0.443
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0640	perf_metric: 14.7323	loss: 0.000
+
+Epoch: 0069/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5457	loss: 0.545
+Iter: 0100/0356	kp3d: 0.5166	loss: 0.516
+Iter: 0200/0356	kp3d: 0.4819	loss: 0.481
+Iter: 0300/0356	kp3d: 0.5331	loss: 0.533
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0845	perf_metric: 14.7922	loss: 0.000
+
+Epoch: 0070/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5695	loss: 0.569
+Iter: 0100/0356	kp3d: 0.5073	loss: 0.507
+Iter: 0200/0356	kp3d: 0.4795	loss: 0.479
+Iter: 0300/0356	kp3d: 0.5037	loss: 0.503
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0312	perf_metric: 14.4108	loss: 0.000
+
+Epoch: 0071/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5660	loss: 0.566
+Iter: 0100/0356	kp3d: 0.4882	loss: 0.488
+Iter: 0200/0356	kp3d: 0.4610	loss: 0.461
+Iter: 0300/0356	kp3d: 0.4628	loss: 0.462
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 0.9898	perf_metric: 14.2139	loss: 0.000
+
+Epoch: 0072/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5001	loss: 0.500
+Iter: 0100/0356	kp3d: 0.4653	loss: 0.465
+Iter: 0200/0356	kp3d: 0.4326	loss: 0.432
+Iter: 0300/0356	kp3d: 0.4412	loss: 0.441
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0990	perf_metric: 14.5405	loss: 0.000
+
+Epoch: 0073/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4930	loss: 0.493
+Iter: 0100/0356	kp3d: 0.4442	loss: 0.444
+Iter: 0200/0356	kp3d: 0.4265	loss: 0.426
+Iter: 0300/0356	kp3d: 0.4226	loss: 0.422
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0623	perf_metric: 14.4445	loss: 0.000
+
+Epoch: 0074/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4840	loss: 0.484
+Iter: 0100/0356	kp3d: 0.4485	loss: 0.448
+Iter: 0200/0356	kp3d: 0.4738	loss: 0.473
+Iter: 0300/0356	kp3d: 0.4617	loss: 0.461
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0840	perf_metric: 14.5279	loss: 0.000
+
+Epoch: 0075/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5439	loss: 0.543
+Iter: 0100/0356	kp3d: 0.5790	loss: 0.579
+Iter: 0200/0356	kp3d: 0.5148	loss: 0.514
+Iter: 0300/0356	kp3d: 0.5126	loss: 0.512
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1161	perf_metric: 14.9591	loss: 0.000
+
+Epoch: 0076/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.6336	loss: 0.633
+Iter: 0100/0356	kp3d: 0.4858	loss: 0.485
+Iter: 0200/0356	kp3d: 0.4518	loss: 0.451
+Iter: 0300/0356	kp3d: 0.4584	loss: 0.458
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0473	perf_metric: 14.4633	loss: 0.000
+
+Epoch: 0077/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5139	loss: 0.513
+Iter: 0100/0356	kp3d: 0.4595	loss: 0.459
+Iter: 0200/0356	kp3d: 0.4268	loss: 0.426
+Iter: 0300/0356	kp3d: 0.4413	loss: 0.441
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0179	perf_metric: 14.1546	loss: 0.000
+
+Epoch: 0078/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4742	loss: 0.474
+Iter: 0100/0356	kp3d: 0.4379	loss: 0.437
+Iter: 0200/0356	kp3d: 0.4076	loss: 0.407
+Iter: 0300/0356	kp3d: 0.4200	loss: 0.420
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0331	perf_metric: 14.1081	loss: 0.000
+
+Epoch: 0079/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4843	loss: 0.484
+Iter: 0100/0356	kp3d: 0.4595	loss: 0.459
+Iter: 0200/0356	kp3d: 0.4525	loss: 0.452
+Iter: 0300/0356	kp3d: 0.4898	loss: 0.489
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1136	perf_metric: 14.0471	loss: 0.000
+
+Epoch: 0080/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5141	loss: 0.514
+Iter: 0100/0356	kp3d: 0.4989	loss: 0.498
+Iter: 0200/0356	kp3d: 0.4609	loss: 0.460
+Iter: 0300/0356	kp3d: 0.4819	loss: 0.481
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0847	perf_metric: 14.2317	loss: 0.000
+
+Epoch: 0081/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5532	loss: 0.553
+Iter: 0100/0356	kp3d: 0.4906	loss: 0.490
+Iter: 0200/0356	kp3d: 0.4850	loss: 0.485
+Iter: 0300/0356	kp3d: 0.5042	loss: 0.504
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0613	perf_metric: 13.8744	loss: 0.000
+
+Epoch: 0082/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5639	loss: 0.563
+Iter: 0100/0356	kp3d: 0.4919	loss: 0.491
+Iter: 0200/0356	kp3d: 0.4459	loss: 0.445
+Iter: 0300/0356	kp3d: 0.4453	loss: 0.445
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0254	perf_metric: 14.2606	loss: 0.000
+
+Epoch: 0083/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4911	loss: 0.491
+Iter: 0100/0356	kp3d: 0.4308	loss: 0.430
+Iter: 0200/0356	kp3d: 0.4148	loss: 0.414
+Iter: 0300/0356	kp3d: 0.4414	loss: 0.441
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0807	perf_metric: 13.8043	loss: 0.000
+
+Epoch: 0084/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4988	loss: 0.498
+Iter: 0100/0356	kp3d: 0.4491	loss: 0.449
+Iter: 0200/0356	kp3d: 0.4288	loss: 0.428
+Iter: 0300/0356	kp3d: 0.4508	loss: 0.450
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0064	perf_metric: 14.6478	loss: 0.000
+
+Epoch: 0085/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5083	loss: 0.508
+Iter: 0100/0356	kp3d: 0.4792	loss: 0.479
+Iter: 0200/0356	kp3d: 0.5067	loss: 0.506
+Iter: 0300/0356	kp3d: 0.4878	loss: 0.487
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0778	perf_metric: 14.1168	loss: 0.000
+
+Epoch: 0086/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5652	loss: 0.565
+Iter: 0100/0356	kp3d: 0.5049	loss: 0.504
+Iter: 0200/0356	kp3d: 0.5004	loss: 0.500
+Iter: 0300/0356	kp3d: 0.4679	loss: 0.467
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0923	perf_metric: 14.3487	loss: 0.000
+
+Epoch: 0087/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5225	loss: 0.522
+Iter: 0100/0356	kp3d: 0.4755	loss: 0.475
+Iter: 0200/0356	kp3d: 0.4499	loss: 0.449
+Iter: 0300/0356	kp3d: 0.4667	loss: 0.466
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1580	perf_metric: 14.0738	loss: 0.000
+
+Epoch: 0088/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5110	loss: 0.511
+Iter: 0100/0356	kp3d: 0.4402	loss: 0.440
+Iter: 0200/0356	kp3d: 0.4314	loss: 0.431
+Iter: 0300/0356	kp3d: 0.4329	loss: 0.432
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0576	perf_metric: 14.4885	loss: 0.000
+
+Epoch: 0089/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4800	loss: 0.480
+Iter: 0100/0356	kp3d: 0.4484	loss: 0.448
+Iter: 0200/0356	kp3d: 0.4156	loss: 0.415
+Iter: 0300/0356	kp3d: 0.4276	loss: 0.427
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1055	perf_metric: 14.8086	loss: 0.000
+
+Epoch: 0090/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4985	loss: 0.498
+Iter: 0100/0356	kp3d: 0.4653	loss: 0.465
+Iter: 0200/0356	kp3d: 0.4724	loss: 0.472
+Iter: 0300/0356	kp3d: 0.4871	loss: 0.487
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1086	perf_metric: 14.2407	loss: 0.000
+
+Epoch: 0091/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5533	loss: 0.553
+Iter: 0100/0356	kp3d: 0.5326	loss: 0.532
+Iter: 0200/0356	kp3d: 0.5164	loss: 0.516
+Iter: 0300/0356	kp3d: 0.5433	loss: 0.543
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0760	perf_metric: 14.6821	loss: 0.000
+
+Epoch: 0092/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5535	loss: 0.553
+Iter: 0100/0356	kp3d: 0.5120	loss: 0.512
+Iter: 0200/0356	kp3d: 0.4809	loss: 0.480
+Iter: 0300/0356	kp3d: 0.4557	loss: 0.455
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0041	perf_metric: 14.4153	loss: 0.000
+
+Epoch: 0093/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4999	loss: 0.499
+Iter: 0100/0356	kp3d: 0.4463	loss: 0.446
+Iter: 0200/0356	kp3d: 0.4111	loss: 0.411
+Iter: 0300/0356	kp3d: 0.4099	loss: 0.409
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0646	perf_metric: 14.2209	loss: 0.000
+
+Epoch: 0094/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4600	loss: 0.460
+Iter: 0100/0356	kp3d: 0.4135	loss: 0.413
+Iter: 0200/0356	kp3d: 0.4103	loss: 0.410
+Iter: 0300/0356	kp3d: 0.3917	loss: 0.391
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0937	perf_metric: 14.6682	loss: 0.000
+
+Epoch: 0095/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4606	loss: 0.460
+Iter: 0100/0356	kp3d: 0.4214	loss: 0.421
+Iter: 0200/0356	kp3d: 0.4464	loss: 0.446
+Iter: 0300/0356	kp3d: 0.4816	loss: 0.481
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0116	perf_metric: 14.1731	loss: 0.000
+
+Epoch: 0096/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5625	loss: 0.562
+Iter: 0100/0356	kp3d: 0.4912	loss: 0.491
+Iter: 0200/0356	kp3d: 0.4626	loss: 0.462
+Iter: 0300/0356	kp3d: 0.4547	loss: 0.454
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1117	perf_metric: 14.2169	loss: 0.000
+
+Epoch: 0097/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5063	loss: 0.506
+Iter: 0100/0356	kp3d: 0.4698	loss: 0.469
+Iter: 0200/0356	kp3d: 0.4579	loss: 0.457
+Iter: 0300/0356	kp3d: 0.4585	loss: 0.458
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0363	perf_metric: 14.1841	loss: 0.000
+
+Epoch: 0098/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5199	loss: 0.519
+Iter: 0100/0356	kp3d: 0.4776	loss: 0.477
+Iter: 0200/0356	kp3d: 0.4425	loss: 0.442
+Iter: 0300/0356	kp3d: 0.4345	loss: 0.434
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0935	perf_metric: 14.3562	loss: 0.000
+
+Epoch: 0099/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4745	loss: 0.474
+Iter: 0100/0356	kp3d: 0.4325	loss: 0.432
+Iter: 0200/0356	kp3d: 0.4389	loss: 0.438
+Iter: 0300/0356	kp3d: 0.4258	loss: 0.425
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0606	perf_metric: 14.0499	loss: 0.000
+
+Epoch: 0100/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4863	loss: 0.486
+Iter: 0100/0356	kp3d: 0.4449	loss: 0.444
+Iter: 0200/0356	kp3d: 0.4552	loss: 0.455
+Iter: 0300/0356	kp3d: 0.4526	loss: 0.452
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0811	perf_metric: 14.8984	loss: 0.000
+
+Epoch: 0101/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4959	loss: 0.495
+Iter: 0100/0356	kp3d: 0.4506	loss: 0.450
+Iter: 0200/0356	kp3d: 0.4644	loss: 0.464
+Iter: 0300/0356	kp3d: 0.4929	loss: 0.492
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0551	perf_metric: 14.5696	loss: 0.000
+
+Epoch: 0102/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5001	loss: 0.500
+Iter: 0100/0356	kp3d: 0.5009	loss: 0.500
+Iter: 0200/0356	kp3d: 0.4943	loss: 0.494
+Iter: 0300/0356	kp3d: 0.4808	loss: 0.480
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0932	perf_metric: 14.7613	loss: 0.000
+
+Epoch: 0103/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5252	loss: 0.525
+Iter: 0100/0356	kp3d: 0.4753	loss: 0.475
+Iter: 0200/0356	kp3d: 0.4816	loss: 0.481
+Iter: 0300/0356	kp3d: 0.4314	loss: 0.431
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0990	perf_metric: 14.4465	loss: 0.000
+
+Epoch: 0104/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4987	loss: 0.498
+Iter: 0100/0356	kp3d: 0.4410	loss: 0.441
+Iter: 0200/0356	kp3d: 0.4497	loss: 0.449
+Iter: 0300/0356	kp3d: 0.4193	loss: 0.419
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1039	perf_metric: 14.3710	loss: 0.000
+
+Epoch: 0105/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4708	loss: 0.470
+Iter: 0100/0356	kp3d: 0.4346	loss: 0.434
+Iter: 0200/0356	kp3d: 0.4135	loss: 0.413
+Iter: 0300/0356	kp3d: 0.4116	loss: 0.411
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0881	perf_metric: 13.8636	loss: 0.000
+
+Epoch: 0106/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4479	loss: 0.447
+Iter: 0100/0356	kp3d: 0.4710	loss: 0.471
+Iter: 0200/0356	kp3d: 0.4392	loss: 0.439
+Iter: 0300/0356	kp3d: 0.4255	loss: 0.425
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1291	perf_metric: 14.1320	loss: 0.000
+
+Epoch: 0107/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5209	loss: 0.520
+Iter: 0100/0356	kp3d: 0.4735	loss: 0.473
+Iter: 0200/0356	kp3d: 0.4374	loss: 0.437
+Iter: 0300/0356	kp3d: 0.4476	loss: 0.447
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1295	perf_metric: 14.0427	loss: 0.000
+
+Epoch: 0108/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5045	loss: 0.504
+Iter: 0100/0356	kp3d: 0.5054	loss: 0.505
+Iter: 0200/0356	kp3d: 0.4912	loss: 0.491
+Iter: 0300/0356	kp3d: 0.5007	loss: 0.500
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1247	perf_metric: 14.7851	loss: 0.000
+
+Epoch: 0109/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5544	loss: 0.554
+Iter: 0100/0356	kp3d: 0.4603	loss: 0.460
+Iter: 0200/0356	kp3d: 0.4442	loss: 0.444
+Iter: 0300/0356	kp3d: 0.4579	loss: 0.457
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1014	perf_metric: 14.6014	loss: 0.000
+
+Epoch: 0110/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4963	loss: 0.496
+Iter: 0100/0356	kp3d: 0.4396	loss: 0.439
+Iter: 0200/0356	kp3d: 0.4246	loss: 0.424
+Iter: 0300/0356	kp3d: 0.4290	loss: 0.429
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0288	perf_metric: 14.1485	loss: 0.000
+
+Epoch: 0111/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4743	loss: 0.474
+Iter: 0100/0356	kp3d: 0.4294	loss: 0.429
+Iter: 0200/0356	kp3d: 0.4016	loss: 0.401
+Iter: 0300/0356	kp3d: 0.3942	loss: 0.394
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0481	perf_metric: 14.7424	loss: 0.000
+
+Epoch: 0112/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4630	loss: 0.463
+Iter: 0100/0356	kp3d: 0.4339	loss: 0.433
+Iter: 0200/0356	kp3d: 0.4523	loss: 0.452
+Iter: 0300/0356	kp3d: 0.4994	loss: 0.499
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0847	perf_metric: 14.5231	loss: 0.000
+
+Epoch: 0113/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5700	loss: 0.570
+Iter: 0100/0356	kp3d: 0.4952	loss: 0.495
+Iter: 0200/0356	kp3d: 0.4749	loss: 0.474
+Iter: 0300/0356	kp3d: 0.4569	loss: 0.456
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0542	perf_metric: 14.3032	loss: 0.000
+
+Epoch: 0114/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5045	loss: 0.504
+Iter: 0100/0356	kp3d: 0.4695	loss: 0.469
+Iter: 0200/0356	kp3d: 0.4354	loss: 0.435
+Iter: 0300/0356	kp3d: 0.4238	loss: 0.423
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0783	perf_metric: 14.4975	loss: 0.000
+
+Epoch: 0115/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4897	loss: 0.489
+Iter: 0100/0356	kp3d: 0.4232	loss: 0.423
+Iter: 0200/0356	kp3d: 0.4301	loss: 0.430
+Iter: 0300/0356	kp3d: 0.4043	loss: 0.404
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0585	perf_metric: 14.2674	loss: 0.000
+
+Epoch: 0116/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4802	loss: 0.480
+Iter: 0100/0356	kp3d: 0.4295	loss: 0.429
+Iter: 0200/0356	kp3d: 0.4243	loss: 0.424
+Iter: 0300/0356	kp3d: 0.4094	loss: 0.409
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0751	perf_metric: 14.7501	loss: 0.000
+
+Epoch: 0117/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4875	loss: 0.487
+Iter: 0100/0356	kp3d: 0.4783	loss: 0.478
+Iter: 0200/0356	kp3d: 0.4502	loss: 0.450
+Iter: 0300/0356	kp3d: 0.4677	loss: 0.467
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1119	perf_metric: 14.3099	loss: 0.000
+
+Epoch: 0118/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5449	loss: 0.544
+Iter: 0100/0356	kp3d: 0.4496	loss: 0.449
+Iter: 0200/0356	kp3d: 0.4573	loss: 0.457
+Iter: 0300/0356	kp3d: 0.4467	loss: 0.446
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0449	perf_metric: 13.5920	loss: 0.000
+
+Epoch: 0119/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4917	loss: 0.491
+Iter: 0100/0356	kp3d: 0.4557	loss: 0.455
+Iter: 0200/0356	kp3d: 0.4434	loss: 0.443
+Iter: 0300/0356	kp3d: 0.4241	loss: 0.424
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0728	perf_metric: 13.9584	loss: 0.000
+
+Epoch: 0120/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4796	loss: 0.479
+Iter: 0100/0356	kp3d: 0.4239	loss: 0.423
+Iter: 0200/0356	kp3d: 0.3989	loss: 0.398
+Iter: 0300/0356	kp3d: 0.4184	loss: 0.418
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1324	perf_metric: 14.4163	loss: 0.000
+
+Epoch: 0121/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4598	loss: 0.459
+Iter: 0100/0356	kp3d: 0.4249	loss: 0.424
+Iter: 0200/0356	kp3d: 0.4434	loss: 0.443
+Iter: 0300/0356	kp3d: 0.4304	loss: 0.430
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1201	perf_metric: 14.1560	loss: 0.000
+
+Epoch: 0122/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4924	loss: 0.492
+Iter: 0100/0356	kp3d: 0.4479	loss: 0.447
+Iter: 0200/0356	kp3d: 0.4233	loss: 0.423
+Iter: 0300/0356	kp3d: 0.4404	loss: 0.440
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0305	perf_metric: 14.6046	loss: 0.000
+
+Epoch: 0123/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4907	loss: 0.490
+Iter: 0100/0356	kp3d: 0.4585	loss: 0.458
+Iter: 0200/0356	kp3d: 0.4385	loss: 0.438
+Iter: 0300/0356	kp3d: 0.4423	loss: 0.442
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1079	perf_metric: 14.2117	loss: 0.000
+
+Epoch: 0124/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5012	loss: 0.501
+Iter: 0100/0356	kp3d: 0.4387	loss: 0.438
+Iter: 0200/0356	kp3d: 0.4266	loss: 0.426
+Iter: 0300/0356	kp3d: 0.4239	loss: 0.423
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1088	perf_metric: 14.3014	loss: 0.000
+
+Epoch: 0125/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4727	loss: 0.472
+Iter: 0100/0356	kp3d: 0.4279	loss: 0.427
+Iter: 0200/0356	kp3d: 0.4217	loss: 0.421
+Iter: 0300/0356	kp3d: 0.4365	loss: 0.436
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0676	perf_metric: 13.9426	loss: 0.000
+
+Epoch: 0126/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5542	loss: 0.554
+Iter: 0100/0356	kp3d: 0.4773	loss: 0.477
+Iter: 0200/0356	kp3d: 0.4276	loss: 0.427
+Iter: 0300/0356	kp3d: 0.4145	loss: 0.414
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0833	perf_metric: 14.1098	loss: 0.000
+
+Epoch: 0127/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4871	loss: 0.487
+Iter: 0100/0356	kp3d: 0.4781	loss: 0.478
+Iter: 0200/0356	kp3d: 0.4565	loss: 0.456
+Iter: 0300/0356	kp3d: 0.4339	loss: 0.433
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0728	perf_metric: 14.1101	loss: 0.000
+
+Epoch: 0128/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5126	loss: 0.512
+Iter: 0100/0356	kp3d: 0.4445	loss: 0.444
+Iter: 0200/0356	kp3d: 0.4298	loss: 0.429
+Iter: 0300/0356	kp3d: 0.4189	loss: 0.418
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0781	perf_metric: 14.2356	loss: 0.000
+
+Epoch: 0129/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5088	loss: 0.508
+Iter: 0100/0356	kp3d: 0.4503	loss: 0.450
+Iter: 0200/0356	kp3d: 0.4073	loss: 0.407
+Iter: 0300/0356	kp3d: 0.4472	loss: 0.447
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0306	perf_metric: 14.1772	loss: 0.000
+
+Epoch: 0130/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4778	loss: 0.477
+Iter: 0100/0356	kp3d: 0.4486	loss: 0.448
+Iter: 0200/0356	kp3d: 0.4108	loss: 0.410
+Iter: 0300/0356	kp3d: 0.4473	loss: 0.447
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0339	perf_metric: 13.8339	loss: 0.000
+
+Epoch: 0131/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5390	loss: 0.539
+Iter: 0100/0356	kp3d: 0.4538	loss: 0.453
+Iter: 0200/0356	kp3d: 0.4509	loss: 0.450
+Iter: 0300/0356	kp3d: 0.4270	loss: 0.427
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1091	perf_metric: 14.0762	loss: 0.000
+
+Epoch: 0132/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4936	loss: 0.493
+Iter: 0100/0356	kp3d: 0.4294	loss: 0.429
+Iter: 0200/0356	kp3d: 0.4461	loss: 0.446
+Iter: 0300/0356	kp3d: 0.4315	loss: 0.431
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0521	perf_metric: 14.0135	loss: 0.000
+
+Epoch: 0133/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4742	loss: 0.474
+Iter: 0100/0356	kp3d: 0.4608	loss: 0.460
+Iter: 0200/0356	kp3d: 0.4113	loss: 0.411
+Iter: 0300/0356	kp3d: 0.4365	loss: 0.436
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1027	perf_metric: 15.4241	loss: 0.000
+
+Epoch: 0134/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4751	loss: 0.475
+Iter: 0100/0356	kp3d: 0.4403	loss: 0.440
+Iter: 0200/0356	kp3d: 0.4083	loss: 0.408
+Iter: 0300/0356	kp3d: 0.4020	loss: 0.402
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0856	perf_metric: 15.6527	loss: 0.000
+
+Epoch: 0135/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4729	loss: 0.472
+Iter: 0100/0356	kp3d: 0.4367	loss: 0.436
+Iter: 0200/0356	kp3d: 0.4177	loss: 0.417
+Iter: 0300/0356	kp3d: 0.4346	loss: 0.434
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1166	perf_metric: 14.6226	loss: 0.000
+
+Epoch: 0136/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4823	loss: 0.482
+Iter: 0100/0356	kp3d: 0.4312	loss: 0.431
+Iter: 0200/0356	kp3d: 0.4533	loss: 0.453
+Iter: 0300/0356	kp3d: 0.4331	loss: 0.433
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0774	perf_metric: 14.2156	loss: 0.000
+
+Epoch: 0137/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4904	loss: 0.490
+Iter: 0100/0356	kp3d: 0.4677	loss: 0.467
+Iter: 0200/0356	kp3d: 0.4531	loss: 0.453
+Iter: 0300/0356	kp3d: 0.4791	loss: 0.479
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0458	perf_metric: 14.4536	loss: 0.000
+
+Epoch: 0138/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5184	loss: 0.518
+Iter: 0100/0356	kp3d: 0.4460	loss: 0.446
+Iter: 0200/0356	kp3d: 0.4572	loss: 0.457
+Iter: 0300/0356	kp3d: 0.5020	loss: 0.502
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0726	perf_metric: 14.0647	loss: 0.000
+
+Epoch: 0139/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5017	loss: 0.501
+Iter: 0100/0356	kp3d: 0.4883	loss: 0.488
+Iter: 0200/0356	kp3d: 0.4380	loss: 0.438
+Iter: 0300/0356	kp3d: 0.4408	loss: 0.440
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0956	perf_metric: 13.8835	loss: 0.000
+
+Epoch: 0140/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4839	loss: 0.483
+Iter: 0100/0356	kp3d: 0.4213	loss: 0.421
+Iter: 0200/0356	kp3d: 0.4098	loss: 0.409
+Iter: 0300/0356	kp3d: 0.4242	loss: 0.424
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0235	perf_metric: 13.9090	loss: 0.000
+
+Epoch: 0141/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4380	loss: 0.438
+Iter: 0100/0356	kp3d: 0.4135	loss: 0.413
+Iter: 0200/0356	kp3d: 0.4120	loss: 0.412
+Iter: 0300/0356	kp3d: 0.4043	loss: 0.404
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0328	perf_metric: 13.8945	loss: 0.000
+
+Epoch: 0142/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4471	loss: 0.447
+Iter: 0100/0356	kp3d: 0.4230	loss: 0.423
+Iter: 0200/0356	kp3d: 0.4161	loss: 0.416
+Iter: 0300/0356	kp3d: 0.4198	loss: 0.419
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0489	perf_metric: 14.1840	loss: 0.000
+
+Epoch: 0143/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4737	loss: 0.473
+Iter: 0100/0356	kp3d: 0.4454	loss: 0.445
+Iter: 0200/0356	kp3d: 0.4538	loss: 0.453
+Iter: 0300/0356	kp3d: 0.4772	loss: 0.477
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1684	perf_metric: 15.1147	loss: 0.000
+
+Epoch: 0144/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5172	loss: 0.517
+Iter: 0100/0356	kp3d: 0.4793	loss: 0.479
+Iter: 0200/0356	kp3d: 0.4408	loss: 0.440
+Iter: 0300/0356	kp3d: 0.4608	loss: 0.460
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1042	perf_metric: 15.0792	loss: 0.000
+
+Epoch: 0145/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4862	loss: 0.486
+Iter: 0100/0356	kp3d: 0.4554	loss: 0.455
+Iter: 0200/0356	kp3d: 0.4344	loss: 0.434
+Iter: 0300/0356	kp3d: 0.4078	loss: 0.407
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0635	perf_metric: 13.9469	loss: 0.000
+
+Epoch: 0146/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4497	loss: 0.449
+Iter: 0100/0356	kp3d: 0.4277	loss: 0.427
+Iter: 0200/0356	kp3d: 0.4139	loss: 0.413
+Iter: 0300/0356	kp3d: 0.3939	loss: 0.393
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1006	perf_metric: 14.1946	loss: 0.000
+
+Epoch: 0147/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4290	loss: 0.429
+Iter: 0100/0356	kp3d: 0.3995	loss: 0.399
+Iter: 0200/0356	kp3d: 0.4042	loss: 0.404
+Iter: 0300/0356	kp3d: 0.4117	loss: 0.411
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0786	perf_metric: 14.4094	loss: 0.000
+
+Epoch: 0148/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4720	loss: 0.472
+Iter: 0100/0356	kp3d: 0.4223	loss: 0.422
+Iter: 0200/0356	kp3d: 0.4220	loss: 0.422
+Iter: 0300/0356	kp3d: 0.4253	loss: 0.425
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0601	perf_metric: 14.3713	loss: 0.000
+
+Epoch: 0149/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.4738	loss: 0.473
+Iter: 0100/0356	kp3d: 0.4492	loss: 0.449
+Iter: 0200/0356	kp3d: 0.4316	loss: 0.431
+Iter: 0300/0356	kp3d: 0.4499	loss: 0.449
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.1407	perf_metric: 14.5312	loss: 0.000
+
+Epoch: 0150/0150
+##### TRAINING #####
+Iter: 0000/0356	kp3d: 0.5166	loss: 0.516
+Iter: 0100/0356	kp3d: 0.4637	loss: 0.463
+Iter: 0200/0356	kp3d: 0.4521	loss: 0.452
+Iter: 0300/0356	kp3d: 0.4681	loss: 0.468
+libpng warning: iCCP: profile 'ICC Profile': 1000000h: invalid rendering intent
+##### EVALUATION #####
+Iter: 0000/0077	kp3d: 1.0593	perf_metric: 14.0745	loss: 0.000
+##### TESTING #####
+S:\Projects\MachinePerception\amro_bou\Kldivergent\src\dataset\transforms.py:110: RuntimeWarning: invalid value encountered in true_divide
+  kp3d = kp3d / bone_length
+S:\Projects\MachinePerception\amro_bou\Kldivergent\src\dataset\transforms.py:112: RuntimeWarning: invalid value encountered in true_divide
+  verts = verts / bone_length
+Iter: 0000/0077	loss: 0.000
+Dumping test predictions in S:\Projects\MachinePerception\Experiments\exp_boukhayma_421560\test_preds.json
+Dumping test predictions in S:\Projects\MachinePerception\Experiments\exp_boukhayma_421560\test_preds_correct_order.json
+
+Process finished with exit code 0
